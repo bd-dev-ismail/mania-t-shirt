@@ -7,8 +7,8 @@ const Anty = ({house}) => {
             <h2>Anty</h2>
             <p><small>House: {house}</small></p>
             <section className='flex'>
-                <Cousin></Cousin>
-                <Cousin></Cousin>
+                <Cousin house={house}></Cousin>
+                <Cousin house={house}></Cousin>
             </section>
         </div>
     );

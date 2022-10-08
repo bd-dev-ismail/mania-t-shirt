@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { MoneyContext } from '../Grandpa/Grandpa';
 
 const Uncle = ({house}) => {
-    const [money , setMoney] = useContext(MoneyContext);
+    const [money ] = useContext(MoneyContext);
     return (
         <div>
             <h2>Uncle</h2>
